@@ -1,0 +1,65 @@
+/*CSS document*/ 
+
+body{
+    background-color:#D7F4ED;
+    padding: 7%;
+}
+p{
+    font-family: sans-serif;
+    font-size: 1em;
+    color:#000;
+    padding-left: 1.5em;
+}
+h1{ 
+    font-family: serif;
+    font-size: 2.75em;
+    margin: 1em, 2em, 0em, 0em ;
+}
+h2{
+   font-family: serif;
+    font-size: 2em;
+    color: #44756A;
+    margin-top:2em; 
+    
+}
+h3{
+    font-family: serif;
+    font-size: 1.5em;
+    margin: 1em, 2em, 0em, 0em ;
+    text-transform: uppercase;
+}
+h4 {
+    font-family: sans-serif;
+    font-size: 1.25em;
+    color:#44756A ;
+    margin-bottom: .5em;
+    
+    
+}
+ul{
+    list-style-type: square;
+    color: #44756A;
+    font-size: 1em;
+}
+.appetizers{
+    color:  #A88389;
+    text-decoration: underline;
+}
+.salads{
+    color: #008B8B;
+    text-decoration: underline;
+}
+.entrees{
+    color: #C2979D	;
+    text-decoration: underline;
+}
+.dessert {
+    color: #45788F; 
+    text-decoration: underline;
+}
+.price{
+    font-family: serif;
+    color: #44756A;
+    margin-bottom: 2em;
+   
+}
