@@ -1,0 +1,181 @@
+/*CSS DOCUMENT*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol {
+	list-style: ;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+  @import url("https://use.typekit.net/hmd7ctk.css");
+
+
+header{
+    padding: 3em 10em 1em 10em;
+    
+}
+ h1{
+    font-size: 2.5em;
+    font-weight: 550;
+     font-family: quicksand, sans-serif;
+     font-style: normal;
+     border-bottom: 2px double rgb(255,129,73);
+    border-width: 4px 0;
+     padding-bottom: .1em;
+}
+
+h2{
+     font-size: 1.5em;
+    font-weight: 100;
+    line-height: 1.5em;
+    font-family: quicksand, sans-serif;
+     font-style: normal;
+    
+}
+
+h3{
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.5em;
+    text-transform:uppercase;
+    font-family: quicksand, sans-serif;
+     font-style: normal;
+    letter-spacing: .03em;
+}
+
+li{
+    font-size: 1em;
+    font-family: quicksand, sans-serif;
+     font-style: normal;
+    font-weight: 100;
+    padding: .75em;
+}
+
+
+body{ 
+    background-color: rgb(220,220,220)}
+
+
+div.container{
+    background-color:rgb(255,255,255);
+    max-width: 90%;
+    margin:  2em auto;
+    padding: 2em auto;
+   
+}
+
+
+div.intro{
+    padding: 2em 10em 1em 10em;
+    overflow: hidden;
+}
+
+.intro p{ 
+    max-width: 50em;
+    padding-top: 1.5em;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: quicksand, sans-serif;
+     font-style: normal;
+    font-size: 1em;
+}
+
+.intro img {
+    max-width: 50em;
+    margin:  auto;
+    overflow: hidden;
+    padding-right: 10em;
+   
+}
+
+
+.maincontent{ 
+padding: 1.5em 10em;
+
+}
+
+.ingredients{
+    margin-bottom: 2em;
+    border-top: 2px double rgb(255,129,73);
+    border-width: 4px 0;
+    max-width: 50em;
+    padding-top: .7em;
+}
+
+.ingredients ul{
+    padding-left: 2em;
+    line-height: 1.5em;  
+}
+
+
+.directions{
+    border-top: 2px double rgb(255,129,73);
+    border-width: 4px 0;
+    max-width: 50em;
+    margin-top: 1.5em;
+    padding: .7em 0em 2em 0em;
+     
+}
+.directions ol{
+    padding-left: 2em;
+    line-height: 1.5em;
+    
+}
+
+footer{
+    padding: 1.25em;
+    background-color: rgb(255,129,73);
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: quicksand, sans-serif;
+     font-style: normal;
+    font-size: 1em;
+    letter-spacing: .03em;
+}
