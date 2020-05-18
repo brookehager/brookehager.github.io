@@ -1,0 +1,300 @@
+/*CSS document*/ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol {
+	list-style: ;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    padding: 1em ;
+    width: auto;
+    
+}
+
+nav {
+    text-align: center;
+    padding: 3.2em 0em 1em 0em;
+    
+}
+header nav ul li{ 
+    list-style: none;
+    display: inline;
+    font-size: 1.8em;
+    line-height: 2em;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .03em;
+    
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: .5em;
+    color: #444;
+    font-weight: bold;
+}
+a:hover{
+    color:rgb(255,255,255);
+    background: #9AAEB5;
+}
+
+header img{
+    max-width: 8em;
+    float: left;
+    padding-bottom: .5em;
+    padding-left:1em;
+    text-align: center;
+    
+}
+
+ h1{
+    font-size: 2.5em;
+    font-weight: 550;
+     font-family: kepler-std-semicondensed-dis, serif;
+font-style: normal;
+font-weight: 700;
+    letter-spacing: .03em;
+}
+
+h2{
+     font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-family: kepler-std-semicondensed-dis, serif;
+font-style: normal;
+font-weight: 700;
+    letter-spacing: .03em;
+    border-bottom: 2px double #3A5D69;
+    border-width: 4px 0;
+    
+    
+}
+
+h3{
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.5em;
+    
+    font-family: kepler-std-semicondensed-dis, serif;
+font-style: normal;
+font-weight: 700;
+    letter-spacing: .03em;
+    line-height: 2em;
+}
+
+.hours{
+    padding-top: 2em;
+}
+.directions{
+    padding-top: 2em;
+}
+
+div.photo{
+    clear: both;
+    background-image: url("homephoto.jpg");  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    padding: 3em ;
+     
+    
+}
+div.photo img{ 
+    width: 100%;   
+}
+
+div.photo h2{
+    border: none;
+    padding: .8em .2em;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    font-size: 2em;
+    
+}
+
+.title img{
+    width: 100%;
+    padding: 1.5em 0em 1em;
+}
+
+.title{
+    padding: 1.5em 2em 0em;
+    clear: both;
+   
+}
+li{
+    font-size: 1em;
+    font-family: quicksand, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    padding: .75em;
+}
+
+body{ 
+    background-color: rgb(255,255,255)} /* delete later*/
+
+
+div.container{
+    background-color: #C5DFE8;
+    width: 90%;
+    max-height: 1000em;
+    margin:  2em auto;
+    padding: 2em auto;
+   
+}
+.intro{
+    clear: both;
+    padding: 1.5em 2em;
+    overflow: hidden;
+    
+}
+
+.intro img{
+    width: 100%;
+    padding-top: 1em;
+    
+    
+}
+.ft{
+    float: left;
+    max-width: 23em;
+    
+}
+.location{
+    overflow: hidden;
+}
+.location p{ 
+    max-width: 50em;
+    line-height: 2.5em;
+    font-weight: 100;
+    font-family: quicksand, sans-serif;
+     font-style: normal;
+    font-size: 1em;
+    
+}
+
+div.location img {
+   width: 100%;
+    padding-top: .5em;
+    float: right;
+
+}
+
+
+.location{ 
+  padding: 1.5em 2em;
+    clear: both;
+
+}
+.exterior{
+    max-width: 23em;
+    
+}
+.food{
+    text-align: center;
+    margin: auto;
+    background-color: #C5DFE8;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+   width: 90%;
+    clear:both;
+    overflow: hidden;
+}
+.food img{
+    width: 90%;
+    padding: .5em;
+}
+
+.food h3{
+    padding-top: .5em;
+    font-size: 1.5em;
+}
+.croissant{
+    display: inline-block;
+}
+
+.crepe{
+    display: inline-block;
+}
+
+.waffle{
+    display: inline-block;
+}
+
+
+
+.menu ul{
+    padding-left: 1.2em;
+    line-height: 1.5em;  
+}
+.menu ul li h4{
+    font-weight: 400;
+}
+
+.menu{
+    column-width: 25em;
+    margin: 1.5em 1em;
+    padding: .8em ;
+    border: 2px double #3A5D69;
+    border-width: 4px;
+    
+}
+
+
+footer{
+    padding: 1.25em;
+    background-color: #9AAEB5;
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-size: 1em;
+    clear: both;
+    text-align: left;
+    font-family: kepler-std-semicondensed-dis, serif;
+font-style: normal;
+font-weight: 700;
+    letter-spacing: .1em;
+  
+}
