@@ -1,0 +1,342 @@
+/*CSS document*/ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    list-style: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol {
+	list-style: ;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+    padding: 1.5em ;
+}
+
+nav {
+    float: left;
+    text-align: center;
+    padding: 3.5em 1em 1em 1em;
+}
+
+header nav ul li{ 
+    list-style: none;
+    display: inline;
+    font-size: 1.8em;
+    line-height: 2em;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .03em;
+    padding: .75em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: .2em;
+    color: #444;
+    font-weight: bold;
+}
+
+a:hover{
+    color:rgb(255,255,255);
+    background: #9AAEB5;
+}
+
+header img{
+    max-width: 8em;
+    float: left;
+    padding:0em 0em .5em 1.3em;
+    text-align: center;
+}
+
+ h1{
+    font-size: 1.9em;
+}
+
+h2{
+     font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .03em;
+    border-bottom: 2px double #3A5D69;
+    border-width: 4px 0;
+    padding-top: .8em;
+}
+
+h3{
+    font-size: 1.35em;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .03em;
+    line-height: 2.2em;
+}
+
+li{
+    font-size: 1em;
+    font-family: quicksand, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    padding: .75em 0em;
+}
+
+div.container{
+    background-color: #C5DFE8;
+    width: 90%;
+    max-height: 1000em;
+    margin:  2em auto;
+    padding: 2em auto;
+}
+
+div.photo{
+    clear: both;
+    background-image: url("homephoto.jpg");  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    padding: 3em ;
+}
+
+div.photo h2{
+    border: none;
+    padding: .8em .2em;
+    font-weight: 500;
+    color: rgb(255,255,255);
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 40em){
+    div.photo h2{
+        font-size: 4em;
+        padding: 1em .2em;
+    }
+}
+
+@media only screen and (min-width: 60em){
+    div.photo h2{
+        font-size: 5em;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 80em){
+    div.photo h2{
+        font-size: 5em;
+        padding: 1em .2em 1em .2em;
+    }
+    div.photo{
+        padding: 4em 5em 4em 5em;
+    }
+}
+
+@media only screen and (min-width: 90em){
+    div.photo{
+        padding: 6em 5em 7em 5em;
+    }
+}
+.food{
+    text-align: center;
+    margin: auto;
+    background-color: #C5DFE8;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    width: 90%;
+    clear:both;
+    overflow: hidden;
+}
+
+.food img{
+    max-width: 25em;
+    padding: .5em .5em 1em .5em;
+}
+
+.food h3{
+    padding-top: .5em;
+    font-size: 1.5em;
+}
+
+@media only screen and (min-width: 80em){
+    .food img{
+        width:100%;
+        float:left;
+        text-align: center;
+    }
+}
+.croissant{
+    display: inline-block;
+}
+
+.crepe{
+    display: inline-block;
+}
+
+.waffle{
+    display: inline-block;
+}
+
+.allabout{
+    width:90%;
+    margin: auto;
+}
+
+.title img{
+    width: 100%;
+    padding: 1.5em 0em 1em;
+}
+
+.title{
+    clear: both;
+}
+
+@media only screen and (min-width: 80em){
+    .title img{
+        width:75%;
+    }
+}
+
+.about{
+    padding: 1.5em 0em;
+    clear: both;
+    overflow: hidden;
+}
+
+.about p{
+    max-width: 50em;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-family: quicksand, sans-serif;
+     font-style: normal;
+}
+
+.location p{ 
+    max-width: 50em;
+    line-height: 1.9em;
+    font-weight: 100;
+    font-family: quicksand, sans-serif;
+     font-style: normal;
+}
+
+.location img {
+   width: 100%;
+    padding-top: 2em;
+    max-width: 23em;
+}
+
+.location{ 
+   margin: auto;
+    width: 90%;
+    clear: both;
+    overflow: hidden;
+}
+
+.location h3{
+    padding-top: 1.8em;
+}
+
+.directions{
+    padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 60em){
+    .location img{
+        float:right;
+        padding-bottom: 2em;
+    }
+}
+
+.intro{
+    width:90%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.intro img{
+    width: 100%;
+    padding-top: 1em;
+}
+
+.menu ul{
+    line-height: 1.2em;
+}
+
+.menu ul li h4{
+    font-weight: 400;
+    font-size: 1.08em;
+}
+
+.menu{
+    column-width: 25em;
+    margin: 1.5em auto;
+    padding: .8em ;
+    border: 2px double #3A5D69;
+    border-width: 4px;
+    width:90%;
+}
+
+@media only screen and (min-width: 48em){
+    .toast{
+        width: 48%;
+        float: left;
+        margin-right: 1em;
+    }
+}
+
+@media only screen and (min-width: 35em){
+    .menu li{
+        width:60%;
+    }
+}
+
+footer{
+    padding: 1.25em;
+    background-color: #9AAEB5;
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: 100;
+    font-size: 1em;
+    clear: both;
+    text-align: left;
+    font-family: kepler-std-semicondensed-dis, serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
